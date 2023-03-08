@@ -12,7 +12,7 @@ const UserSchema = new Schema(
             type: String,
             unique: true,
             required: true,
-            match: /.+\@.+\..+/, // Moongoose's matching validation for email
+            match: /.+\@.+\..+/, // Mongoose's matching validation for email
         },
         thoughts: [{
             type: Schema.Types.ObjectID,
