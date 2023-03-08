@@ -31,7 +31,7 @@ module.exports = {
              return User.findOneAndUpdate({ _id: req.params.id}, {$push: {thought: _id}}, {new: true});
             })
             .then((thought) => {
-                console.log({ message: 'Thought posted!' });
+                res.json({ message: 'Thought created!' });
             })
             .catch((err) => {
                 console.log(err);

@@ -23,5 +23,5 @@ NPM Packages:
 
 # Links
 
-- Walkthrough Video: 
-- GitHub Repo:
+- Walkthrough Video: https://www.youtube.com/watch?v=aTNmKW5reo8
+- GitHub Repo: https://github.com/annapng/Social-Network-API
